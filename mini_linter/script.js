@@ -16,6 +16,7 @@ return !unnecessaryWords.includes(storyWords);
 });
 console.log(`The story contains ${betterWords.length} words after removing unnecesary words.`)
 
+
 //Another way for removing the unnecessary words
 /*let betterWords = storyWords.filter(word => {
   if (unnecessaryWords.includes(word) === false) {
@@ -65,5 +66,4 @@ console.log(`Count of sentences: ${sentences}`);
 
 
 //betterWords array as a single string 
-
 console.log(betterWords.join(' '));
