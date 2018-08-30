@@ -6,5 +6,6 @@ vanilla JavaScript mini projects
 3. Whale Talks - There are a few simple rules for translating text to 'whale speak': 
   - There are no consonants. Only vowels.
   - The 'u' and 'e' are extra long, so we must double them in our program.
+4. Build a library - about JS class syntax and inheritance
 
 
