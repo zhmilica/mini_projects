@@ -9,6 +9,6 @@ vanilla JavaScript mini projects
 4. Build a library - about JS class syntax and inheritance
 5. School Catalogue - about JS class syntax and inheritance
 6. Paper rock scissors - about JS functions
-7. simple todo list (in console.log)- Colt Steele
+7. simple todo list (in console.log) - Colt Steele
 
 
