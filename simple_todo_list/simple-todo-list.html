@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Todo List</title>
+</head>
+<body>
+	<h1>Todo List</h1>
+	<ul>
+		<li>"new" - Add a Todo</li>
+		<li>"list" - List all Todos</li>
+		<li>"quit" - Quit apps</li>
+	</ul>
+<script type="text/javascript">
+	let todos = [];
+
+	let input = prompt("What would you like to do? (Please chose: 'new', 'list' or 'quit')!");
+
+	
+	while(input !== "quit"){
+		//handle input
+		if(input === "list"){
+		console.log(todos);
+	}else if (input === "new") {
+		//ask for new todo
+		var newTodo = prompt("Enter new todo");
+		//add to todos array
+		todos.push(newTodo);
+	}
+		//ask again for new input
+		input = prompt("What would you like to do? (Please chose: 'new', 'list' or 'quit')!");
+
+	}
+	console.log("OK, YOU QUIT THE APP");
+</script>
+</body>
+</html>
